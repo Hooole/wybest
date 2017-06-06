@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="stylesheet" href="../css/common/base.css">
+	<link rel="stylesheet" href="../css/common/common.css">
+	<link rel="stylesheet" href="../css/login.css" />
+</head>
+<body>
+	<div id="header"></div>
+	<div id="nav"></div>
+	<div id="banner">
+		<div class="margin">
+			<form>
+				<div class="login">
+					<h4>网易账号登录</h4>
+					<div class="login-t">
+						<div class="clear login-tw">
+							<div class="login-tb left">
+								<i class=""></i>
+							</div>
+							<div class="left login-tl">
+								<input type="text" placeholder="邮箱账号/手机号" class="login-txt inputMailList" required autofocus autocomplete="off"/>
+							</div>
+						</div>
+					</div>
+					<div class="login-p">
+						<div class="clear login-pw">
+							<div class="login-pb left">
+								<i class=""></i>
+							</div>
+							<div class="left login-pl">
+								<input type="password" placeholder="输入密码" class="psw"/>
+							</div>
+						</div>
+					</div>
+					<div class="prompt">
+						<i></i><span></span>
+					</div>
+					<input type="submit" value="登录" class="sub"/>
+					<div class="login-b clear">
+						<div class="left">
+							<a href="#" class="f-psw">忘记密码</a>
+						</div>
+						<div class="right">
+							<a href="regist.html" class="l-now">马上注册</a>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div id="footer-before"></div>
+	<div id="footer"></div>
+	<script src="../libs/jquery-1.12.3.js"></script>
+	<script src="../libs/jquery.cookie.js"></script>
+    <script type="text/javascript" src="../js/common/ajaxgethtml.js" ></script>
+	<script>
+			loadHtml("common/header.html", "header");
+			loadHtml("common/nav.html", "nav");
+			loadHtml("common/footerbefore.html", "footer-before")
+			loadHtml("common/footer.html", "footer");
+	</script>
+	<script src="../js/common/common.js"></script>
+	 <script type="text/javascript" src="../libs/jquery.cookie.js" ></script>
+	<script src="../js/login.js"></script>
+	
+</body>
+</html>

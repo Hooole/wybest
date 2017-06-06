@@ -1,0 +1,144 @@
+body{
+	background: #efefef;
+}
+#regist .margin{
+	width:1000px;
+	margin:0 auto;
+}
+#regist .regist-h{
+	height:130px;
+}
+#regist .regist-logo{
+	width:300px;
+	height:60px;
+	background: url(../img/regist/sprite.png) no-repeat -50px -18px;
+	margin-top:35px;
+}
+#regist .regist-l{
+	line-height: 130px;
+}
+#regist .regist-l a{
+	color:#c1252e;
+}
+#regist .regist-content{
+	background:#fff;
+	padding-top:48px;
+	padding-left:70px;
+}
+#regist .regist-main h4{
+	font-size:24px;
+	
+}
+#regist .regist-content .regist-main label{
+	display:inline-block;
+    width:340px;
+    text-align:right;
+    line-height:45px;
+    float:left;
+    position:relative;
+    top:26px;
+}
+#regist .regist-content .regist-main input{
+	width:320px;
+	height:44px;
+	border:1px solid #ddd;
+	margin-top:26px;
+	padding-left:4px;
+	float:left;
+}
+#regist .regist-content .regist-main .regist-txt{
+	position:relative;
+}
+#regist .regist-content .regist-main .prompt-err{
+	float:left;
+	margin-top:26px;
+	height:44px;
+	margin-left:8px;
+	display:none;
+}
+#regist .regist-content .regist-main .prompt-err i{
+	display:inline-block;
+	width:22px;
+	height:22px;
+	position:relative;
+	top:8px;
+	left:6px;
+	background:url(../img/regist/sprite.png) no-repeat -62px -98px; 
+}
+#regist .regist-content .regist-main .prompt-suc{
+	float:left;
+	margin-top:26px;
+	height:44px;
+	margin-left:8px;
+	display:none;
+}
+#regist .regist-content .regist-main .prompt-suc i{
+	display:inline-block;
+	width:22px;
+	height:22px;
+	position:relative;
+	top:8px;
+	left:6px;
+	background:url(../img/regist/sprite.png) no-repeat -26px -98px;
+}
+#regist .regist-content .regist-main .prompt-err span{
+	line-height:44px;
+	color:#ef3939;
+}
+#regist .regist-content .regist-main #message{
+	width:192px;
+	height:44px;
+	border:1px solid #ddd;
+	margin-top:26px;
+	padding-left:4px;
+	float:left;
+}
+#regist .regist-content .regist-main .regist-phoneY span{
+	display:block;
+	float:left;
+	height:44px;
+	width:120px;
+	background:#c7e3fa;
+	text-align:center;
+	line-height:44px;
+	margin-top:26px;
+	margin-left:8px;
+	color:#fff;
+}
+#regist .regist-content .regist-main .regist-btn #btn{
+	background:#df9797;
+	color:#fff;
+	cursor:pointer;
+}
+#regist .regist-content .regist-main .regist-tips .tips{
+	display:block;
+	float:left;
+	height:44px;
+	width:320px;
+	margin-top:20px;
+	margin-left:8px;
+	color:#ccc;
+} 
+#regist .regist-content .regist-main .regist-tips .tips a{
+	color:#ccc;
+}
+#regist .regist-content .regist-main .regist-tips .tips a:hover{
+	color:#333;
+}
+.emailist{
+	position:relative;
+	top:23px;
+	left:341px;
+	background:#ccc;
+	border:1px solid #ccc;
+}
+.emailist li{
+	line-height:30px;
+	height:30px;
+	padding-left:4px;
+	/*border:1px solid #ccc;*/
+}
+.emailist .on,.emailist li:hover{
+	background:#c7e3fa;
+	cursor:pointer;
+}

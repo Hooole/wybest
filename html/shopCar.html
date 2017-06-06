@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="../css/common/base.css">
+	<link rel="stylesheet" href="../css/common/common.css">
+	<link rel="stylesheet" href="../css/shopCar.css">
+</head>
+<body>
+	<div id="header"></div>
+	<div id="nav"></div>
+	<div id="main">
+		<div class="margin">
+			<div class="goodsInfo">
+				<h4>商品信息</h4>
+			</div>
+			<div class="cartCar">
+				<div class="cartContent clear">
+					<div class="m cart-m1">
+						<input type="checkbox" />
+						<span>全选</span>
+					</div>
+					<div class="m cart-m2">
+						<span>名称</span>
+					</div>
+					<div class="m cart-m3">
+						<span>规格</span>
+					</div>
+					<div class="m cart-m4">
+						<span>数量</span>
+					</div>
+					<div class="m cart-m5">
+						<span>单价</span>
+					</div>
+					<div class="m cart-m6">
+						<span>小计</span>
+					</div>
+					<div class="m cart-m7">
+						<span>操作</span>
+					</div>
+				</div>
+				<div class="cartList clear">
+					<!--<div class="w cart-w1">
+						<input type="checkbox" />
+					</div>
+					<div class="w cart-w2">
+						<a href="#" class="aImg left">
+							<img src="../img/goodDetail/good-color1.jpg"/>
+						</a>
+						<a href="#" class="left aName">经济法的角度讲开</a>
+					</div>
+					<div class="w cart-w3">
+						粉灰
+					</div>
+					<div class="w cart-w4">
+						<div class="goodNumIn">
+							<span class="left leftBtn">
+								<i class="ch"></i>
+							</span>
+							<input type="text" value="1"  class="left good-num"/>
+							<span class="left rightBtn">
+								<i class="ch"></i>
+								<i class="xh"></i>
+							</span>
+						</div>
+					</div>
+					<div class="w cart-w5">
+						11
+					</div>
+					<div class="w cart-w6">
+						111
+					</div>
+					<div class="w cart-w7">
+						<a href="javascript:void(0)" class="aDel">删除</a>
+					</div>-->
+				</div>
+				<div class="cartTotal clear">
+					<div class="cart-i">
+						<input type="checkbox" />
+						<span>全选</span>
+					</div>
+					<div class="right cart-t">
+						<div class="clear cart-tt">
+							<div class="cart-t1 left">满88元包邮</div>
+							<div class="sale-total left">商品合计：<span class="priceTotal">￥<span class="priceTotal-n">169</span>.00</span></div>
+							<a href="javascript:void(0)" class="left cart-t2">下单</a>
+						</div>
+						<a href="javascript:void(0)" class="cart-g">继续购物&gt; &gt;</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div id="footer-before"></div>
+	<div id="footer"></div>
+
+	<script src="../libs/jquery-1.12.3.js"></script>
+	<script type="text/javascript" src="../js/common/ajaxgethtml.js" ></script>
+	<script>
+			loadHtml("common/header.html", "header");
+			loadHtml("common/nav.html", "nav");
+			loadHtml("common/footerbefore.html", "footer-before")
+			loadHtml("common/footer.html", "footer");
+	</script>
+	<script type="text/javascript" src="../libs/jquery.jqzoom.js" ></script>
+    <script type="text/javascript" src="../libs/jquery.cookie.js" ></script>
+	<script src="../js/common/common.js"></script>
+    <script type="text/javascript" src="../js/shopCar.js" ></script>
+</body>
+</html>

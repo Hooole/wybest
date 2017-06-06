@@ -1,0 +1,443 @@
+#main{
+	border-top:2px solid #eee;
+}
+#main .main-t{
+	margin-top:18px;
+}
+#main .main-t a{
+	color:#333;
+}
+#main .main-t a:hover{
+	text-decoration: underline;
+}
+#main .main-t span{
+	display:inline-block;
+	width:5px;
+	height:9px;
+	margin:0 5px;
+	background: url(../img/goodDetail/header.png) no-repeat 0 0;
+}
+#main .main-t b{
+	color:#ccc;
+}
+#main .goodsale{
+	margin-top:30px;
+}
+/*放大镜的样式*/
+.jqzoom{
+	float:left;
+	border:none;
+	position:relative;
+	padding:0px;
+	cursor:pointer;
+	margin:0px;
+	display:block;
+	border:1px solid #ccc;
+}
+
+.zoomdiv{
+	z-index:100;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:350px;
+	height:350px;
+	background:#ffffff;
+	border:1px solid #CCCCCC;
+	display:none;
+	text-align:center;
+	overflow:hidden;
+}
+.jqZoomPup{
+	z-index:10;
+	visibility:
+	hidden;position:
+	absolute;
+	top:0px;
+	left:0px;
+	border:1px solid #aaa;
+	background:#ffffff url(../images/zoom.png) 50% center no-repeat;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	filter: alpha(Opacity=50);
+}
+.items{
+	float:left;
+	position:relative;
+	width:78px;
+	margin-left:10px;
+}
+.items ul{
+	position:absolute;
+	width:78px;
+}
+.items ul li{
+	float:left;
+	width:76px;
+	height:76px;
+	text-align:center;
+	margin-bottom:12px;
+}
+.items ul li img{
+	border:1px solid #CCC;
+	padding:2px;
+	width:74px;
+	height:74px;
+}
+.items ul li img:hover{
+	border:2px solid #ab2b2b;
+	padding:1px;
+}
+#main .main-sale{
+	margin-left:62px;
+}
+#main .main-sale .goodName h4{
+	font-size:20px;
+	font-weight:700;
+	line-height:20px;
+	float:left;
+}
+#main .main-sale .goodName span{
+	display:block;
+	float:left;
+	width:44px;
+	height:20px;
+	background:#ab2b2b;
+	color:#fff;
+	text-align:center;
+	line-height:20px;
+	margin-left:10px;
+}
+#main .main-sale .fangSong h5{
+	font-size:12px;
+	color:#CCCCCC;
+	font-weight:normal;
+	margin-top:20px;
+}
+#main .main-sale .sale{
+	background:#f5f5f5;
+	margin-top:22px;
+	width:504px;
+	padding:18px 0;
+}
+#main .main-sale .shouJia p{
+	display:inline-block;
+}
+#main .main-sale .sale .same-pad{
+	padding-left:10px;
+}
+#main .main-sale .same-span{
+	margin-right:30px;
+	color:#666;
+}
+#main .main-sale .sale .shouJia p .fuHao{
+	font-size:12px;
+	color:#ab2b2b;
+}
+#main .main-sale .sale .shouJia p .jiaGe{
+	font-size:20px;
+	color:#ab2b2b;
+}
+#main .main-sale .cuXiao{
+	margin-top:8px;
+}
+#main .main-sale .cuXiao .zhengPin{
+	display:inline-block;
+	width:54px;
+	height:18px;
+	color:#fff;
+	background:#ab2b2b;
+	text-align:center;
+	line-height:18px;
+}
+#main .main-sale .cuXiao .huoDong{
+	color:#ab2b2b;
+	text-decoration: underline;
+	margin-left:10px;
+}
+#main .main-sale .fuWu{
+	margin-top:12px;
+}
+#main .main-sale .fuWu ul li{
+	float:left;
+	margin-right:16px;
+	color:#666;
+}
+#main .main-sale .fuWu ul li i{
+	display:inline-block;
+	width:3px;
+	height:3px;
+	margin-right:5px;
+	background: url(../img/goodDetail/icon-normal.png) no-repeat 0 -1913px;
+}
+#main .main-sale .color{
+	padding-left:10px;
+	margin-top:20px;
+}
+#main .main-sale .color span{
+	line-height:50px;
+}
+#main .main-sale .color ul .clickactive{
+	border:2px solid #ab2b2b;
+}
+#main .main-sale .color ul li{
+	width:50px;
+	height:50px;
+	float:left;
+	border:1px solid #CCCCCC;
+	margin-right:10px;
+	position:relative;
+}
+#main .main-sale .color ul .clickactive i{
+	display:block;
+	width:12px;
+	height:12px;
+	background:url(../img/goodDetail/icon-normal.png) no-repeat 0 -2152px;
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+#main .main-sale .color ul li .color-title{
+	position:absolute;
+	padding:5px;
+	border:1px solid #ddd;
+	background:#fff;
+	display:none;
+	z-index:12;
+	top:55px;
+	left:14px;
+}
+#main .main-sale .color ul li img{
+	width:100%;
+	height:100%;
+	display:block;
+}
+#main .main-sale .goodNum{
+	padding-left:10px;
+	margin-top:10px;
+}
+#main .main-sale .goodNum .goodNum-w{
+	line-height:32px;
+}
+#main .main-sale .goodNum .goodNumIn span{
+	display:block;
+	position:relative;
+	width:36px;
+	height:30px;
+	border:1px solid #CCCCCC;
+	cursor: pointer;
+}
+#main .main-sale .goodNum .goodNumIn span .ch{
+	display:block;
+	position:absolute;
+	width:10px;
+	height:2px;
+	top:14px;
+	left:13px;
+	background: #d3d3d3;
+}
+#main .main-sale .goodNum .goodNumIn span .xh{
+	display:block;
+	position:absolute;
+	width:2px;
+	height:10px;
+	background:#d3d3d3;
+	top:10px;
+	left:17px;
+}
+#main .main-sale .goodNum input{
+	width:60px;
+	height:30px;
+	border-bottom:1px solid #CCCCCC;
+	border-top:1px solid #CCCCCC;
+	text-align: center;
+	line-height:30px;
+}
+#main .main-sale .goodBtn {
+	padding-left:10px;
+	margin-top:34px;
+}
+#main .main-sale .goodBtn a{
+	display:block;
+	width:168px;
+	height:49px;
+	line-height:49px;
+	text-align: center;
+	font-size:18px;
+	margin-right:10px;
+}
+#main .main-sale .goodBtn .btn1{
+	background:#fbf7f7;
+	border:1px solid #ab2b2b;
+	color:#ab2b2b;
+}
+#main .main-sale .goodBtn a.btn1:hover{
+	background:#fff;
+}
+#main .main-sale .goodBtn .btn2{
+	background:#ab2b2b;
+	border:1px solid #ab2b2b;
+	color:#fff;
+}
+#main .main-sale .goodBtn a.btn2:hover{
+	background:#ec4040;
+}
+#main .main-sale .goodBtn .btn2 i{
+	display:inline-block;
+	position:relative;
+	top:9px;
+	left:-3px;
+	width:21px;
+	height:21px;
+	background: url(../img/goodDetail/icon-sd.png) no-repeat 0px -39px;;
+}
+
+
+#peopleSee{
+	margin-top:34px;
+}
+#peopleSee .borderline{
+	border:1px solid #F5F5F5;
+	padding-bottom:22px;
+	position:relative;
+}
+#peopleSee h3{
+	height:44px;
+	line-height:44px;
+	font-size:18px;
+	font-weight:700;
+	background:#f5f5f5;
+	padding-left:10px;
+}
+#peopleSee .seeProduct{
+	margin:12px 79px 0;
+	overflow:hidden;
+}
+#peopleSee .seeProduct .seeContent ul{
+	overflow:hidden;
+	width:1920px;
+	position:relative;
+}
+#peopleSee .seeProduct .seeContent ul li{
+	float:left;
+	margin-right:30px;
+	text-align:center;
+}
+#peopleSee .seeProduct .seeContent ul li h4{
+	color:#333333;
+	margin-bottom:6px;
+}
+#peopleSee .seeProduct .seeContent .seeContentPrice{
+	color:#ab2b2b;
+}
+#peopleSee .leftbtn{
+	position:absolute;
+	top:50%;
+	margin-top:-16px;
+	left:20px;
+	width:20px;
+	height:32px;
+	background: url(../img/goodDetail/leftbtn.png) no-repeat 0 -40px;
+}
+#peopleSee .rightbtn{
+	position:absolute;
+	top:50%;
+	margin-top:-16px;
+	right:20px;
+	width:20px;
+	height:32px;
+	background: url(../img/goodDetail/rightbtn.png) no-repeat 0 -40px;
+	cursor:pointer;
+}
+
+
+#goodIntroduce{
+	margin-top:20px;
+}
+#goodIntroduce .navDetail{
+	height:40px;
+	width:748px;
+	background:#f5f5f5;
+	border:1px solid #e8e8e8;
+}
+#goodIntroduce .navDetail ul .active{
+	border-top:2px solid #ab2b2b;
+	background: #fff;
+	border-bottom:0;
+}
+#goodIntroduce .navDetail ul li{
+	float:left;
+	width:170px;
+	text-align:center;
+	line-height:40px;
+	border-right:1px solid #e8e8e8;
+}
+#goodIntroduce .detailContent{
+	margin-top:30px;
+}
+#goodIntroduce .detailContent ul{
+	overflow:hidden;
+	width:742px;
+}
+#goodIntroduce .detailContent ul li{
+	float:left;
+	padding:0 30px;
+	min-width:41%;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px dashed #e8e8e8;
+}
+#goodIntroduce .detailContent ul li.lilast{
+	border:0;
+}
+#goodIntroduce .detailContent ul li .name{
+	display:block;
+	float:left;
+	width:105px;
+	
+}
+#goodIntroduce .detailContent ul li .value{
+	float:left;
+}
+#goodIntroduce .recommend{
+	width:298px;
+	
+}
+#goodIntroduce .recommend h4{
+	font-size:20px;
+	height:44px;
+	text-align:center;
+	background:#f5f5f5;
+}
+#goodIntroduce .recommend .recommend-w{
+	margin-bottom:10px;
+}
+#goodIntroduce .recommend .recommend-pic{
+	position:relative;
+	top:30px;
+	left:19px;
+	margin-bottom:10px;
+}
+#goodIntroduce .recommend .recommend-pic p{
+	height:30px;
+	width:260px;
+	background:#333;
+	position:absolute;
+	top:110px;
+	left:0 ;
+	opacity:0.8;
+	filter: alpha(opacity:80);
+}
+#goodIntroduce .recommend .recommend-pic span{
+	display:block;
+	height:30px;
+	width:260px;
+	text-align: center;
+	line-height:30px;
+	color:#fff;
+	position:absolute;
+	top:110px;
+	left:0;
+	z-index:2;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="../css/common/base.css">
+	<link rel="stylesheet" href="../css/common/common.css">
+	<link rel="stylesheet" href="../css/goodList.css">
+</head>
+<body>
+	<div id="header"></div>
+	<div id="nav"></div>
+	<div id="main">
+		<div class="margin">
+			<img src="../img/pay/pic1.jpg">
+		</div>
+		
+	</div>
+	<div id="footer-before"></div>
+	<div id="footer"></div>
+
+	<script src="../libs/jquery-1.12.3.js"></script>
+	<script type="text/javascript" src="../js/common/ajaxgethtml.js" ></script>
+	<script>
+			loadHtml("common/header.html", "header");
+			loadHtml("common/nav.html", "nav");
+			loadHtml("common/footerbefore.html", "footer-before")
+			loadHtml("common/footer.html", "footer");
+	</script>
+	 <script type="text/javascript" src="../libs/jquery.cookie.js" ></script>
+	<script src="../js/common/common.js"></script>
+	<script type="text/javascript" src="../js/pay.js" ></script>
+</body>
+</html>

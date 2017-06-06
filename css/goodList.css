@@ -1,0 +1,80 @@
+#main{
+	background:#f5f5f5;
+	border-top:1px solid #ccc;
+	padding-bottom:50px;
+}
+#main .margin{
+	background:#fff;
+}
+#main .house{
+	padding-top:20px;
+	background:#f5f5f5;
+	padding-bottom:30px;
+}
+#main .house a{
+	color:#333;
+}
+#main .bgImg{
+	width:100%;
+	height:360px;
+	background: url(../img/goodList/banner1.jpg);
+}
+#main .content{
+	padding:0 30px;
+}
+#main .content .header{
+	text-align:center;
+	margin-top:80px;
+	padding-bottom:20px;
+	border-bottom:1px solid #DDDDDD;
+}
+#main .content .header span{
+	font-size:24px;
+	font-weight:700;
+	position:relative;
+	top:14px;
+	line-hieght:50px;
+}
+#main .content .header p{
+	color:#888;
+}
+.pic{
+	margin-top:40px;
+}
+.pic ul li{
+    float:left;
+    margin-right:10px;
+    margin-top:18px;
+    text-align:center;
+}
+.pic ul li img{
+	width:245px;
+	height:245px;
+}
+.pic ul li.li-l{
+	margin-right:0;
+}
+.pic ul li a{
+	display:block;
+}
+.pic ul li .name{
+	margin-top:24px;
+	color:#333333;
+}
+.pic ul li .name:hover{
+	color:#ab2a2b;
+}
+.pic ul li .price{
+	margin-top:14px;
+	color:#ab2a2b;
+}
+.pic ul li .line{
+	width:130px;
+	height:1px;
+	border:0;
+	border-top:1px solid #e8e8e8;
+	margin:12px auto 20px;
+}
+.pic ul li p{
+	margin-bottom:50px;
+}

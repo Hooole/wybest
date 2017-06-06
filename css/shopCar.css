@@ -1,0 +1,179 @@
+#main{
+	border-top: 1px solid #CCCCCC;
+	padding-top:20px;
+	margin-bottom:80px;
+}
+#main .goodsInfo h4{
+	font-size:12px;
+	font-weight:normal;
+	color:#666;
+}
+#main .cartCar{
+	margin-top:28px;
+	border:1px solid #dddddd;
+}
+#main .cartContent .m{
+	float:left;
+	height:42px;
+	text-align:center;
+	line-height:42px;
+	background:#F5F5F5;
+}
+#main .cartContent .cart-m1{
+	width:94px;
+}
+#main .cartContent .cart-m2{
+	width:244px;
+}
+#main .cartContent .cart-m3{
+	width:146px;
+}
+#main .cartContent .cart-m4{
+	width:200px;
+}
+#main .cartContent .cart-m5{
+	width:122px;
+}
+#main .cartContent .cart-m6{
+	width:130px;
+}
+#main .cartContent .cart-m7{
+	width:152px;
+}
+#main .cartCar .cartList{
+	padding:0 26px;
+	line-height:142px;
+	text-align:center;
+}
+#main .cartCar .cartList .w{
+	float:left;
+}
+#main .cartCar .cartList .cart-w2 .aImg{
+	display:block;
+	width:100px;
+	height:100px;
+	margin-top:15px;
+	background:#f5f5f5;
+	margin-left:32px;
+}
+#main .cartCar .cartList .cart-w2 .aImg img{
+	width:100%;
+	hieght:100%;
+}
+#main .cartCar .cartList .cart-w2 .aName{
+	display:block;
+	width:138px;
+	margin-left:20px;
+	color:#666;
+}
+#main .cartCar .cartList .cart-w2 a.aName:hover{
+	color:#aa2a2a;
+}
+#main .cartCar .cartList .cart-w3{
+	width:136px;
+	margin-left:14px;
+}
+#main .cartCar .cartList .cart-w4{
+	width:200px;
+	margin-left:34px;
+	margin-top:54px;
+}
+#main .cartCar .cartList .cart-w5{
+	width:66px;
+}
+#main .cartCar .cartList .cart-w6{
+	width:130px;
+	margin-left:31px;
+}
+#main .cartCar .cartList .cart-w7{
+	width:90px;
+	margin-left:22px;
+}
+#main .cartCar .cartList .cart-w7 .aDel{
+	color:#666;
+}
+#main .cartCar .cartList .cart-w7 a.aDel:hover{
+	color:#aa2a2a;
+}
+#main .goodNumIn span{
+	display:block;
+	position:relative;
+	width:36px;
+	height:30px;
+	border:1px solid #CCCCCC;
+	cursor: pointer;
+}
+#main .goodNumIn span .ch{
+	display:block;
+	position:absolute;
+	width:10px;
+	height:2px;
+	top:14px;
+	left:13px;
+	background: #d3d3d3;
+}
+#main .goodNumIn span .xh{
+	display:block;
+	position:absolute;
+	width:2px;
+	height:10px;
+	background:#d3d3d3;
+	top:10px;
+	left:17px;
+}
+#main .goodNumIn input{
+	width:60px;
+	height:30px;
+	border-bottom:1px solid #CCCCCC;
+	border-top:1px solid #CCCCCC;
+	text-align: center;
+	line-height:30px;
+}
+#main .cartCar .cartTotal{
+	background:#F5F5F5;
+	height:160px;
+	padding:0 24px;
+}
+#main .cartCar .cartTotal .cart-i{
+	padding-top:10px;
+}
+#main .cartCar .cartTotal .cart-t .cart-tt{
+	margin-top:20px;
+}
+#main .cartCar .cartTotal .cart-t .cart-t1{
+	width:80px;
+	height:20px;
+	background:#aa2a2a;
+	text-align:center;
+	line-height:20px;
+	color:#fff;
+	margin-right:20px;
+}
+#main .cartCar .cartTotal .cart-t .sale-total{
+	height:20px;
+	line-height:20px;
+	margin-right:20px;
+}
+#main .cartCar .cartTotal .cart-t .sale-total span{
+	font-size:18px;
+	color:#aa2a2a;
+}
+#main .cartCar .cartTotal .cart-t .cart-t2{
+	display:inline-block;
+	width:170px;
+	height:30px;
+	background:#aa2a2a;
+	color:#fff;
+	text-align:center;
+	font-size:20px;
+	padding-top:10px;
+	position:relative;
+	top:-10px;
+} 
+#main .cartCar .cartTotal .cart-t .cart-g{
+	position:relative;
+	right:-314px;
+}
+#main .cartCar .cartTotal .cart-t a.cart-g:hover{
+	color:#aa2a2a;
+}
